@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = CustomRecyclerAdapter(fillList())
+        recyclerView.adapter = CustomRecyclerAdapter(fillList(),fillList2())
     }
 
 
@@ -22,4 +22,10 @@ class MainActivity : AppCompatActivity() {
         (0..30).forEach { i -> data.add("Книга №$i") }
         return data
     }
+    private fun fillList2(): List<String> {
+        val data = mutableListOf<String>()
+        (0..30).forEach { i -> data.add("Автор №$i") }
+        return data
+    }
+
 }

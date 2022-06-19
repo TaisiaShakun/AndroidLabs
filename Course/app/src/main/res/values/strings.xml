@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Course</string>
+    <string-array name="book_name">
+        <item>Total_quality_service</item>
+        <item>Winter_Term_at_Malory Towers</item>
+        <item>Queen</item>
+        <item>Homage_to_Galileo</item>
+        <item>Eco_efficiency</item>
+        <item>The_mathematical_palette</item>
+        <item>Enid_Blytons_Sixth_Form_at_StClares </item>
+        <item>Fun_and_games_at_Malory_Towers</item>
+        <item>Summer_Term_at_Malory_Towers </item>
+        <item>Goodbye_Malory_Towers</item>
+        <item>The_Third_Form_At_St_Clares</item>
+        <item>Young_Criminal_Lives</item>
+        <item>Best_Seat_in_th_House</item>
+    </string-array>
+    <string-array name="author">
+        <item>SheilaKessler</item>
+        <item>PamelaCox</item>
+        <item>SharonSala</item>
+        <item>MortonKaplon</item>
+        <item>LivioDeSimone</item>
+        <item>RonaldStaszkow</item>
+        <item>PamelaCox</item>
+        <item>PamelaCox</item>
+        <item>PamelaCox</item>
+        <item>PamelaCox</item>
+        <item>PamelaCox</item>
+        <item>BarryGodfrey</item>
+        <item>JohnCox</item>
+    </string-array>
+    <string name="title_activity_book">Leanback Book</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

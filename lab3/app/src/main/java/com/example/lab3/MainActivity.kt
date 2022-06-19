@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
             intent.type = "image/*";
             intent.putExtra(Intent.EXTRA_STREAM, uriSavedImage);
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            intent.putExtra(Intent.EXTRA_SUBJECT, "ЛАІ95 Шакун Таїсія")
             startActivity(intent)
+
         }
     }
 
