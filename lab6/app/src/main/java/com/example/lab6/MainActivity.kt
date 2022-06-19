@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import java.lang.Math.random
+import kotlin.random.Random
 
 class MainActivity : AppCompatActivity(), CellClickListener {
     private var colors : Array<String> = arrayOf("#FF2D00", "#FFE300", "#16FF00", "#00FFE5", "#0036FF", "#8D00FF", "#F500FF", "#FF0076", "#FF8900", "#AEFF00")
@@ -27,9 +29,9 @@ class MainActivity : AppCompatActivity(), CellClickListener {
 
     private fun fetchList(): ArrayList<Model> {
         val list = arrayListOf<Model>()
-
-        for (i in 0..100) {
-            val model = Model( i, colors[i % 10])
+        val randomValues = List(100) { Random.nextInt(0, 100) }
+        for (i in 0..99) {
+            val model = Model(randomValues[i] , colors[randomValues[i] % 10])
             list.add(model)
         }
         return list
